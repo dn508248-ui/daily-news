@@ -1,4 +1,7 @@
 """Print Buffer organizations, channels and the createPost input schema."""
+import os
+k = os.environ.get("BUFFER_API_KEY", "")
+print(f"key present: {bool(k)}, length {len(k)}, has surrounding whitespace: {k != k.strip()}")
 import json
 from buffer import gql
 
