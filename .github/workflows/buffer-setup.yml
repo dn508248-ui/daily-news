@@ -1,0 +1,12 @@
+name: buffer-setup
+on: workflow_dispatch
+jobs:
+  info:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/setup_info.py
+        working-directory: .
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          PYTHONPATH: scripts
