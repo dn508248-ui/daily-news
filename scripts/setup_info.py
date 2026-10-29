@@ -6,7 +6,7 @@ def show(title, res):
     print(f"\n===== {title} =====")
     print(json.dumps(res, indent=1)[:12000])
 
-orgs = gql("query { account { id email organizations { id name } } }")
+orgs = gql("query { account { organizations { id name } } }")
 show("account/organizations", orgs)
 try:
     org_ids = [o["id"] for o in orgs["data"]["account"]["organizations"]]
