@@ -41,7 +41,7 @@ def push_media(mp4, name):
         sh(f"git worktree add -f {wt} FETCH_HEAD -B media-local")
     else:
         sh(f"git worktree add -f --detach {wt}")
-        sh("git checkout -q --orphan media-local && git rm -rq . ", cwd=wt)
+        sh("git checkout -q --orphan media-local && git rm -rqf . && git clean -fdq", cwd=wt)
     os.makedirs(f"{wt}/videos", exist_ok=True)
     sh(f"cp {mp4} {wt}/videos/{name}.mp4")
     sh(f"git add videos/{name}.mp4 && git -c user.name=daily-news-bot -c user.email=bot@users.noreply.github.com "
