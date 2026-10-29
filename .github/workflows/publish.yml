@@ -20,7 +20,7 @@ jobs:
         id: jobs
         run: |
           if [ -n "${{ github.event.inputs.job }}" ]; then J="${{ github.event.inputs.job }}";
-          else J=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'videos/*.json' | tr '\n' ' '); fi
+          else J=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'videos/*.json' | tr '\n' ' '); fi
           echo "list=$J" >> "$GITHUB_OUTPUT"; echo "jobs: $J"
       - name: create Buffer posts
         if: steps.jobs.outputs.list != ''

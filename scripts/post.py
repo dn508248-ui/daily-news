@@ -18,7 +18,7 @@ MUTATION = """mutation($input: CreatePostInput!) { createPost(input: $input) {
 
 def main(path):
     job = json.load(open(path))
-    url = f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/videos/{job['video']}"
+    url = f"https://raw.githubusercontent.com/{REPO}/{job.get('branch', BRANCH)}/videos/{job['video']}"
     draft = bool(job.get("draft"))
     title = job["title"][:100]
     meta = {
@@ -31,7 +31,7 @@ def main(path):
     for service, cid in channels.items():
         inp = {"channelId": cid, "text": job["caption"], "schedulingType": "automatic",
                "needsApproval": False, "metadata": meta[service],
-               "assets": [{"video": {"url": url, "metadata": {"thumbnailOffset": 1500}}}]}
+               "assets": [{"video": {"url": url, "metadata": {"thumbnailOffset": job.get("thumbnailOffset", 1500)}}}]}
         if draft:
             inp.update(mode="addToQueue", saveToDraft=True)
         elif job.get("now"):
@@ -43,7 +43,7 @@ def main(path):
         cp = ((res.get("data") or {}).get("createPost") or {})
         if "post" not in cp:
             ok = False
-    print(json.dumps({"job": path, "url": url, "draft": draft, "ok": ok, "results": results}, indent=1))
+    print(json.dumps({"job": path, "run": job.get("run"), "url": url, "draft": draft, "ok": ok, "results": results}, indent=1))
     return ok
 
 if __name__ == "__main__":

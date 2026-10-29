@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-29",
+  "edition": "evening",
+  "category": "world",
+  "source": "Spanish authorities",
+  "voice": "af_heart",
+  "say": {"Urda": "Oorda", "Renfe": "Renfay", "Iryo": "Eeryo"},
+  "headline": {
+    "text": "Spain investigates high-speed train crash",
+    "context": "At least 69 people died south of Madrid.",
+    "vo": "Spain is investigating a high-speed train crash south of Madrid that killed at least sixty-nine people."
+  },
+  "beats": [
+    {"type": "map", "focus": ["Spain"],
+     "places": [{"name": "Madrid", "lat": 40.4168, "lon": -3.7038}, {"name": "Urda", "lat": 39.4117, "lon": -3.7148, "main": true}, {"name": "Seville", "lat": 37.3891, "lon": -5.9845}],
+     "route": ["Madrid", "Urda", "Seville"],
+     "text": ["A Renfe train hit a *stopped* Iryo train.", "*544 passengers* were on both trains."],
+     "vo": "On Wednesday morning near Urda, a Renfe train travelling from Madrid to Seville hit the back of an Iryo train that had stopped on the same track. Together, they were carrying more than five hundred passengers."},
+    {"type": "stat", "number": "69", "label": "deaths confirmed so far, Spanish authorities say",
+     "text": "Spain has begun three days of national mourning.",
+     "vo": "It is the deadliest rail accident in Europe since 2013. Spain has begun three days of national mourning."},
+    {"type": "timeline", "title": "How it happened",
+     "items": [{"when": "08:30", "what": "Safety system fails"}, {"when": "08:36", "what": "Renfe train cleared to run"}, {"when": "08:53", "what": "Trains collide near Urda"}],
+     "note": "Minister: decision “inexplicable”",
+     "vo": "At eight thirty, a computer fault shut down the line's safety system. Controllers then cleared the Renfe train to continue at normal speed. Seventeen minutes later, it hit the stopped train. The transport minister called that decision inexplicable. The exact cause is still under investigation."}
+  ],
+  "title": "Spain investigates deadly high-speed train crash",
+  "caption": "At least 69 people died when a Renfe high-speed train hit a stopped Iryo train near Urda, south of Madrid. Investigators are looking at a safety-system failure minutes before the collision.",
+  "hashtags": ["world", "news", "dailynews"]
+}
