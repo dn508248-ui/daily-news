@@ -1,0 +1,42 @@
+{
+ "job": "videos/test_api.json",
+ "url": "https://raw.githubusercontent.com/dn508248-ui/daily-news/main/videos/test_api.mp4",
+ "draft": true,
+ "ok": true,
+ "results": {
+  "tiktok": {
+   "data": {
+    "createPost": {
+     "post": {
+      "id": "6ae3a3c5a50b3f7a4193aad7",
+      "status": "draft",
+      "dueAt": null
+     }
+    }
+   }
+  },
+  "youtube": {
+   "data": {
+    "createPost": {
+     "post": {
+      "id": "6ae3a3c51026f5c4e0c0640e",
+      "status": "draft",
+      "dueAt": null
+     }
+    }
+   }
+  },
+  "instagram": {
+   "data": {
+    "createPost": {
+     "post": {
+      "id": "6ae3a3c598c11c76e3763f3f",
+      "status": "draft",
+      "dueAt": null
+     }
+    }
+   }
+  }
+ }
+}
+rc=0
