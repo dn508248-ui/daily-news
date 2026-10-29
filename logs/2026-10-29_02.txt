@@ -1,0 +1,42 @@
+{
+ "job": "videos/2026-10-29_02.json",
+ "url": "https://raw.githubusercontent.com/dn508248-ui/daily-news/main/videos/2026-10-29_02.mp4",
+ "draft": false,
+ "ok": true,
+ "results": {
+  "tiktok": {
+   "data": {
+    "createPost": {
+     "post": {
+      "id": "6ae3a55b02b1fcfd3e175743",
+      "status": "sending",
+      "dueAt": "2026-10-29T19:58:19.624Z"
+     }
+    }
+   }
+  },
+  "youtube": {
+   "data": {
+    "createPost": {
+     "post": {
+      "id": "6ae3a5668828b976bca5128a",
+      "status": "sent",
+      "dueAt": "2026-10-29T19:58:30.163Z"
+     }
+    }
+   }
+  },
+  "instagram": {
+   "data": {
+    "createPost": {
+     "post": {
+      "id": "6ae3a56802b1fcfd3e17598c",
+      "status": "sending",
+      "dueAt": "2026-10-29T19:58:32.635Z"
+     }
+    }
+   }
+  }
+ }
+}
+rc=0
