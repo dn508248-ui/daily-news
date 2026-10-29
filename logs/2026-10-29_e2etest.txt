@@ -1,0 +1,43 @@
+{
+ "job": "videos/2026-10-29_e2etest.json",
+ "run": "20261029T202036",
+ "url": "https://raw.githubusercontent.com/dn508248-ui/daily-news/media/videos/2026-10-29_e2etest.mp4",
+ "draft": true,
+ "ok": true,
+ "results": {
+  "tiktok": {
+   "data": {
+    "createPost": {
+     "post": {
+      "id": "6ae3aaa4594ba0e4c89363d4",
+      "status": "draft",
+      "dueAt": null
+     }
+    }
+   }
+  },
+  "youtube": {
+   "data": {
+    "createPost": {
+     "post": {
+      "id": "6ae3aaa4f1e846b65afbc1de",
+      "status": "draft",
+      "dueAt": null
+     }
+    }
+   }
+  },
+  "instagram": {
+   "data": {
+    "createPost": {
+     "post": {
+      "id": "6ae3aaa5f473cae772d962c4",
+      "status": "draft",
+      "dueAt": null
+     }
+    }
+   }
+  }
+ }
+}
+rc=0
