@@ -2,7 +2,8 @@
 
 Usage: post.py videos/2026-10-30_01.json
 The JSON holds: video (file name in videos/), caption, title, dueAt (ISO UTC) and
-optional draft (true = save as draft in Buffer instead of scheduling).
+optional draft (true = save as draft in Buffer instead of scheduling)
+or now (true = publish immediately).
 """
 import json, os, sys
 from buffer import gql
@@ -33,6 +34,8 @@ def main(path):
                "assets": [{"video": {"url": url, "metadata": {"thumbnailOffset": 1500}}}]}
         if draft:
             inp.update(mode="addToQueue", saveToDraft=True)
+        elif job.get("now"):
+            inp.update(mode="shareNow")
         else:
             inp.update(mode="customScheduled", dueAt=job["dueAt"])
         res = gql(MUTATION, {"input": inp})
