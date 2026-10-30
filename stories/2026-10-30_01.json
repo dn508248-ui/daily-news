@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-30",
+  "edition": "morning",
+  "category": "tech",
+  "source": "Reuters, AFP",
+  "voice": "af_heart",
+  "say": {"Yi He": "Yee Huh"},
+  "headline": {
+    "text": "Binance hit by crypto hack worth billions",
+    "context": "Binance estimates the impact at $6.3 billion.",
+    "vo": "Binance, the world's largest crypto exchange, says it has been hit by a security breach with an estimated impact of six point three billion dollars. Analysts say it could be the biggest crypto theft ever."
+  },
+  "beats": [
+    {"type": "stat", "number": "$2.5B", "label": "in crypto assets frozen so far, Binance says",
+     "text": "Withdrawals are *paused* for now.",
+     "vo": "Binance says two point five billion dollars in stolen crypto has been frozen so far, much of it by the stablecoin firms Tether and Circle. Withdrawals are paused while the company works with law enforcement."},
+    {"type": "quote", "quote": "Binance will cover all hacking losses.", "who": "Yi He", "role": "Binance co-founder",
+     "vo": "Binance says user funds are safe, and its co-founder Yi He says the company will cover all losses. How the attackers got in has not been confirmed."},
+    {"type": "statement",
+     "text": ["Bitcoin fell almost *5%* after the news.", "The previous record theft was about *$1.5bn*."],
+     "vo": "Crypto prices fell, with bitcoin down almost five percent. The previous record was the theft of about one and a half billion dollars from the exchange Bybit in 2025. Who is behind this attack is still unclear."}
+  ],
+  "title": "Binance hit by crypto hack worth billions",
+  "caption": "Binance, the world's largest crypto exchange, says a security breach has an estimated impact of $6.3 billion – possibly the biggest crypto theft ever. $2.54 billion has been frozen so far and withdrawals are paused. Binance says it will cover all losses while it investigates with law enforcement.",
+  "hashtags": ["tech", "news", "dailynews", "binance", "crypto"]
+}
