@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-30",
+  "edition": "evening",
+  "category": "culture",
+  "source": "PA, ABC News",
+  "voice": "af_heart",
+  "say": {"Picard": "Pee-card"},
+  "headline": {
+    "text": "Actor Patrick Stewart dies at 86",
+    "context": "The Star Trek and X-Men star died in Los Angeles.",
+    "vo": "Sir Patrick Stewart, the British actor known around the world as Captain Picard in Star Trek and Professor X in X-Men, has died at the age of eighty-six. His family says he died at his home in Los Angeles."
+  },
+  "beats": [
+    {"type": "timeline", "title": "His life on screen",
+     "items": [{"when": "1940", "what": "Born in Mirfield, Yorkshire"}, {"when": "1987", "what": "Becomes Captain Picard"}, {"when": "2000", "what": "First plays Professor X"}],
+     "vo": "He was born in Mirfield, in Yorkshire, in 1940. In 1987 he became Captain Jean-Luc Picard in Star Trek: The Next Generation. In 2000 he first played Professor Charles Xavier in X-Men."},
+    {"type": "quote", "quote": "We lost one of the greats of stage and screen today.", "who": "Hugh Jackman", "role": "Actor, X-Men co-star",
+     "vo": "Tributes have come from colleagues and fans. His X-Men co-star Hugh Jackman said the world had lost one of the greats of stage and screen."},
+    {"type": "statement",
+     "text": ["He spent *16 years* with the Royal Shakespeare Company.", "His family says he had *Alzheimer's* disease."],
+     "vo": "Before Hollywood, he spent sixteen years with the Royal Shakespeare Company. His family says he had Alzheimer's disease and Lewy body dementia. Marvel says he will still appear in Avengers: Doomsday in December."}
+  ],
+  "title": "Star Trek and X-Men actor Patrick Stewart dies at 86",
+  "caption": "Sir Patrick Stewart, known as Captain Picard in Star Trek and Professor X in X-Men, has died at 86 at his home in Los Angeles, his family says. He spent 16 years with the Royal Shakespeare Company before Hollywood. Marvel says he will still appear in Avengers: Doomsday in December.",
+  "hashtags": ["culture", "news", "dailynews", "patrickstewart", "startrek"]
+}
