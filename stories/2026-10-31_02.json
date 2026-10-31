@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-31",
+  "edition": "evening",
+  "category": "politics",
+  "source": "Reuters, Euronews",
+  "voice": "af_heart",
+  "say": {
+    "Nawrocki": "Navrotskee"
+  },
+  "headline": {
+    "text": "Poland's president accuses government of court takeover",
+    "context": "Crisis over control of the Constitutional Tribunal.",
+    "vo": "Poland is in a political crisis over its top court. President Karol Nawrocki accuses Prime Minister Donald Tusk's government of a forced takeover of the Constitutional Tribunal."
+  },
+  "beats": [
+    {
+      "type": "map",
+      "focus": [
+        "Poland"
+      ],
+      "places": [
+        {
+          "name": "Warsaw",
+          "lat": 52.2297,
+          "lon": 21.0122,
+          "main": true
+        },
+        {
+          "name": "Krakow",
+          "lat": 50.0647,
+          "lon": 19.945
+        },
+        {
+          "name": "Gdansk",
+          "lat": 54.352,
+          "lon": 18.6466
+        }
+      ],
+      "text": [
+        "A judge suspends the *court's president*.",
+        "*Hundreds* protest outside the court."
+      ],
+      "vo": "On Friday evening, the court's longest-serving judge said she had suspended its president, an appointee of the former Law and Justice government, and taken charge. Hundreds of protesters gathered outside."
+    },
+    {
+      "type": "timeline",
+      "title": "How it unfolded",
+      "items": [
+        {
+          "when": "Fri",
+          "what": "Nawrocki turns plane around"
+        },
+        {
+          "when": "Night",
+          "what": "President enters the court"
+        },
+        {
+          "when": "Sat",
+          "what": "Urgent talks with parties"
+        }
+      ],
+      "note": "Court leadership calls it illegal",
+      "vo": "Nawrocki was flying to Senegal, and turned his plane around. Overnight, footage showed him pushing past judges to enter the court. On Saturday, he called urgent talks with party leaders."
+    },
+    {
+      "type": "quote",
+      "quote": "This process is difficult, at times even painful, and requires decisive action.",
+      "who": "Donald Tusk",
+      "role": "Prime Minister of Poland",
+      "vo": "Tusk says his government is restoring the rule of law, after a dispute over judges dating back to 2015. He wrote that the process is difficult, and requires decisive action."
+    }
+  ],
+  "title": "Poland's president accuses Tusk government of taking over top court",
+  "caption": "Poland's Constitutional Tribunal is in chaos after a judge suspended its president, an appointee of the former Law and Justice government. President Karol Nawrocki flew back from a trip to Senegal and called it a forced takeover, while Prime Minister Donald Tusk says he is restoring the rule of law. Nawrocki has called urgent talks with party leaders.",
+  "hashtags": [
+    "politics",
+    "news",
+    "dailynews",
+    "poland",
+    "constitutionaltribunal"
+  ]
+}
