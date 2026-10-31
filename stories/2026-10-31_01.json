@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-31",
+  "edition": "morning",
+  "category": "economy",
+  "source": "Reuters, AP",
+  "voice": "af_heart",
+  "say": {},
+  "headline": {
+    "text": "Tech stocks fall on doubts over AI spending",
+    "context": "Nasdaq down 2.9%, S&P 500 down 1.8% on Friday.",
+    "vo": "US tech stocks fell sharply on Friday, as investors questioned whether huge spending on artificial intelligence will pay off soon. The Nasdaq dropped two point nine percent, and the S&P 500 had its worst day since June."
+  },
+  "beats": [
+    {"type": "stat", "number": "29%", "label": "Intel's share drop, its worst day since 1974",
+     "text": "Amazon's *AI spending* also worried investors.",
+     "vo": "The chipmaker Intel lost almost twenty-nine percent, its worst day since 1974. It forecast weaker sales than analysts expected, partly because the PC market is shrinking. Amazon also worried investors with heavy spending on AI."},
+    {"type": "statement",
+     "text": ["Chip stocks fell *7.2%* in one day.", "Nasdaq and S&P 500 ended October *lower*."],
+     "vo": "A key index of chip stocks fell more than seven percent. Both the Nasdaq and the S&P 500 ended October with a monthly loss."},
+    {"type": "quote", "quote": "It doesn't kill the whole story, it's pretty much a reset.", "who": "Joe Saluzzi", "role": "Co-manager of trading, Themis Trading",
+     "vo": "Some traders say prices had simply risen too fast. Joe Saluzzi of Themis Trading said the fall does not end the AI story, but is a reset."}
+  ],
+  "title": "Tech stocks fall as Intel has its worst day since 1974",
+  "caption": "US tech stocks fell sharply on Friday as investors questioned whether huge AI spending will pay off soon. Intel lost almost 29% after a weak forecast, and the Nasdaq dropped 2.9%. Both the Nasdaq and the S&P 500 ended October with a monthly loss.",
+  "hashtags": ["economy", "news", "dailynews", "stocks", "intel"]
+}
