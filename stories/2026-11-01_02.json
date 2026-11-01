@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-01",
+  "edition": "evening",
+  "category": "tech",
+  "source": "Reuters, AFP",
+  "voice": "af_heart",
+  "say": {
+    "TraderTraitor": "Trader Traitor"
+  },
+  "headline": {
+    "text": "Binance reopens withdrawals after record hack",
+    "context": "The FBI says North Korea was behind the theft.",
+    "vo": "Crypto exchange Binance has started letting customers withdraw their money again, three days after a record hack. The FBI says North Korea was behind it."
+  },
+  "beats": [
+    {
+      "type": "stat",
+      "number": "$6.3bn",
+      "label": "in crypto stolen, Binance says",
+      "text": "*90%* already replaced with company money.",
+      "vo": "Binance says about six point three billion dollars in crypto was stolen, the largest theft of its kind on record. The company says it has already replaced ninety percent of it with its own money."
+    },
+    {
+      "type": "timeline",
+      "title": "How it happened",
+      "items": [
+        {"when": "Oct 29", "what": "Hackers break in"},
+        {"when": "Oct 30", "what": "Binance: laptop compromised"},
+        {"when": "Oct 31", "what": "FBI blames North Korea"},
+        {"when": "Nov 1", "what": "Withdrawals reopen"}
+      ],
+      "note": "More coins to follow in phases",
+      "vo": "The attack happened on or about October twenty-ninth, the FBI says. Binance said hackers used a compromised laptop and software that hid their tracks. On Saturday, the FBI blamed a North Korean group called TraderTraitor. On Sunday, withdrawals reopened for Bitcoin, Ether and other major coins."
+    },
+    {
+      "type": "quote",
+      "quote": "Binance will absorb the financial impact of these stolen funds, not our users.",
+      "who": "Binance",
+      "role": "Statement on X",
+      "vo": "Binance says customers will not pay for the loss. The FBI expects the stolen money to be laundered further and has asked other platforms to block it."
+    }
+  ],
+  "title": "Binance reopens withdrawals after $6.3bn hack the FBI blames on North Korea",
+  "caption": "Crypto exchange Binance has begun reopening customer withdrawals after hackers stole about $6.3 billion, the largest crypto theft on record. The FBI says a North Korean group called TraderTraitor was behind the attack. Binance says it has replaced most of the stolen funds with its own money and that users will not bear the loss.",
+  "hashtags": ["tech", "news", "dailynews", "binance", "crypto"]
+}
